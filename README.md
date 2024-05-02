@@ -99,6 +99,7 @@ SET name = 'test2'
 WHERE username = 'test';
 ```
 #### Result
+![Alt text](/22.jpg)
 ![Alt text](/12.jpg)
 
 
