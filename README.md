@@ -41,7 +41,9 @@ LIMIT 1, 3;'
 - 'SELECT * FROM member
 WHERE username ='test' AND password = 'test';'
 ![Alt text](/11.jpg)
-- 'SELECT * FROM member WHERE name = 'test2';'
+- 'UPDATE member  
+SET name = 'test2'  
+WHERE username = 'test';'  
 ![Alt text](/12.jpg)
 
 ##**TASK 4**  
