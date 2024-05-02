@@ -110,7 +110,17 @@ JOIN
 member mb ON m.member_id = mb.id      
 WHERE      
 mb.username = 'test';'  
-![Alt text](/20.jpg)  
+![Alt text](/20.jpg)
+- 'SELECT  
+mb.username,  
+AVG(m.like_count) AS average_like_count  
+FROM  
+message m  
+JOIN  
+member mb ON m.member_id = mb.id  
+GROUP BY  
+mb.username;'
+![Alt text](/21.jpg)
 
 
 
