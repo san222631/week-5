@@ -4,6 +4,7 @@ Project Description
 
 ## **TASK 2**    
 ### Q1  
+#### SQL Command
 ```
 CREATE DATABASE website;
 ```
