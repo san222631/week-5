@@ -16,7 +16,7 @@ time DATETIME NOT NULL DEFAULT NOW() ON UPDATE NOW()
 ![Alt text](/2.jpg)  
 ![Alt text](/3.jpg)  
 
-##**#TASK 3**  
+##**TASK 3**  
 - 'INSERT INTO member (name, username, password) VALUES ('test', 'test', 'test');'
 ![Alt text](/4.jpg)  
 'INSERT INTO member (name, username, password)  
@@ -45,11 +45,11 @@ WHERE username ='test' AND password = 'test';'
 ![Alt text](/12.jpg)
 
 ##**TASK 4**  
-- 'SELECT COUNT(*) FROM member;'
+- 'SELECT COUNT(*) FROM member;'  
 ![Alt text](/13.jpg)
-- 'SELECT SUM(follower_count) FROM member;'
+- 'SELECT SUM(follower_count) FROM member;'  
 ![Alt text](/14.jpg)
-- 'SELECT AVG(follower_count) FROM member;'
+- 'SELECT AVG(follower_count) FROM member;'  
 ![Alt text](/15.jpg)
 - 'SELECT AVG(follower_count) AS avg_f_c
 FROM (  
@@ -57,7 +57,7 @@ SELECT follower_count
 FROM member  
 ORDER BY follower_count DESC  
 LIMIT 2  
-) AS top_two;'
+) AS top_two;'  
 ![Alt text](/16.jpg)
         
             
