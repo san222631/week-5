@@ -24,9 +24,9 @@ VALUES
 ('1Ting', 'ting', 'tingting'),  
 ('2Pieter', 'pieter', 'pp'),  
 ('3Mary', 'mary', 'mm'),  
-('4Bob', 'bob', 'bb');'
+('4Bob', 'bob', 'bb');'  
 ![Alt text](/5.jpg)
-- 'SELECT * FROM member;'
+- 'SELECT * FROM member;'  
 ![Alt text](/6.jpg)
 - 'SELECT * FROM member ORDER BY time DESC;'
 ![Alt text](/7.jpg)      
