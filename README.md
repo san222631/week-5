@@ -6,7 +6,8 @@ Project Description
 ### Q1  
 ```
 CREATE DATABASE website;
-```    
+```
+#### Result
 ![Alt text](/1.jpg)  
 ### Q2
 ```
