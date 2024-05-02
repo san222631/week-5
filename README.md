@@ -2,7 +2,7 @@
 Project Description
 在command prompt練習MySQL的各種指令，生成一個database-"website"，這個database底下有2個tables - "member" & "message"。
 
-##** TASK 2**    
+##**TASK 2**    
 ###CREATE DATABASE website;    
 ![Alt text](/1.jpg)
 - 'CREATE TABLE member (  
@@ -16,7 +16,7 @@ time DATETIME NOT NULL DEFAULT NOW() ON UPDATE NOW()
 ![Alt text](/2.jpg)  
 ![Alt text](/3.jpg)  
 
-##** TASK 3**  
+##**TASK 3**  
 - 'INSERT INTO member (name, username, password) VALUES ('test', 'test', 'test');'
 ![Alt text](/4.jpg)  
 'INSERT INTO member (name, username, password)  
@@ -46,7 +46,7 @@ SET name = 'test2'
 WHERE username = 'test';'  
 ![Alt text](/12.jpg)
 
-##** TASK 4**  
+##**TASK 4**  
 - 'SELECT COUNT(*) FROM member;'  
 ![Alt text](/13.jpg)
 - 'SELECT SUM(follower_count) FROM member;'  
@@ -62,7 +62,7 @@ LIMIT 2
 ) AS top_two;'  
 ![Alt text](/16.jpg)
 
-##** TASK 5**  
+##**TASK 5**  
 - 'CREATE TABLE message (  
 id BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,    
 member_id BIGINT NOT NULL,  
