@@ -11,6 +11,7 @@ CREATE DATABASE website;
 #### Result
 ![Alt text](/1.jpg)  
 ### Q2
+#### SQL Command
 ```
 CREATE TABLE member (  
 id BIGINT PRIMARY KEY AUTO-INCREMENT UNIQUE,  
@@ -101,20 +102,37 @@ WHERE username = 'test';
 #### Result
 ![Alt text](/12.jpg)
 
-## **TASK 4**  
-- 'SELECT COUNT(*) FROM member;'  
+
+## **TASK 4**
+### Q1  
+#### SQL Command
+```
+SELECT COUNT(*) FROM member;
+```  
 ![Alt text](/13.jpg)
-- 'SELECT SUM(follower_count) FROM member;'  
+### Q2  
+#### SQL Command
+```
+SELECT SUM(follower_count) FROM member;
+```  
 ![Alt text](/14.jpg)
-- 'SELECT AVG(follower_count) FROM member;'  
+### Q3  
+#### SQL Command
+```
+SELECT AVG(follower_count) FROM member;
+```  
 ![Alt text](/15.jpg)
-- 'SELECT AVG(follower_count) AS avg_f_c
+### Q4  
+#### SQL Command
+```
+SELECT AVG(follower_count) AS avg_f_c
 FROM (  
 SELECT follower_count  
 FROM member  
 ORDER BY follower_count DESC  
 LIMIT 2  
-) AS top_two;'  
+) AS top_two;
+```  
 ![Alt text](/16.jpg)
 
 ## **TASK 5**  
