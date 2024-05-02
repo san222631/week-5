@@ -2,9 +2,9 @@
 Project Description
 在command prompt練習MySQL的各種指令，生成一個database-"website"，這個database底下有2個tables - "member" & "message"。
 
-##Task 2
+##Task 2  
 1.'CREATE DATABASE website;'  
-![Alt text](/1.jpg)
+![Alt text](/1.jpg)  
 2.'CREATE TABLE member (  
 id BIGINT PRIMARY KEY AUTO-INCREMENT UNIQUE,  
 name VARCHAR(255) NOT NULL,  
