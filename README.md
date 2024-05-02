@@ -4,10 +4,13 @@ Project Description
 
 ## **TASK 2**    
 ### Q1  
-```CREATE DATABASE website;```    
+```
+CREATE DATABASE website;
+```    
 ![Alt text](/1.jpg)  
 ### Q2
-```CREATE TABLE member (  
+```
+CREATE TABLE member (  
 id BIGINT PRIMARY KEY AUTO-INCREMENT UNIQUE,  
 name VARCHAR(255) NOT NULL,  
 username VARCHAR(255) NOT NULL,  
