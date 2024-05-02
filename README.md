@@ -29,4 +29,16 @@ VALUES
 - 'SELECT * FROM member;'  
 ![Alt text](/6.jpg)
 - 'SELECT * FROM member ORDER BY time DESC;'
-![Alt text](/7.jpg)      
+![Alt text](/7.jpg)
+- 'SELECT * FROM member
+ORDER BY time DESC  
+LIMIT 1, 3;'
+![Alt text](/8.jpg)
+- 'SELECT * FROM member WHERE username = 'test';'
+![Alt text](/9.jpg)
+- 'SELECT * FROM member WHERE name LIKE '%es%';'
+![Alt text](/10.jpg)
+- 'SELECT * FROM member
+WHERE username ='test' AND password = 'test';'
+![Alt text](/11.jpg)
+            
