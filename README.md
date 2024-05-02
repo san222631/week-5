@@ -6,14 +6,14 @@ Project Description
 ### Q1  
 ```CREATE DATABASE website;```    
 ![Alt text](/1.jpg)
-- 'CREATE TABLE member (  
+```CREATE TABLE member (  
 id BIGINT PRIMARY KEY AUTO-INCREMENT UNIQUE,  
 name VARCHAR(255) NOT NULL,  
 username VARCHAR(255) NOT NULL,  
 password VARCHAR(255) NOT NULL,  
 follower_count INT UNSIGNED NOT NULL DEFAULT 0,  
 time DATETIME NOT NULL DEFAULT NOW() ON UPDATE NOW()
-);'  
+);```    
 ![Alt text](/2.jpg)  
 ![Alt text](/3.jpg)  
 
