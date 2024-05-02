@@ -59,5 +59,61 @@ ORDER BY follower_count DESC
 LIMIT 2  
 ) AS top_two;'  
 ![Alt text](/16.jpg)
-        
+
+##**TASK 5**  
+- 'CREATE TABLE message (  
+id BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,  
+member_id BIGINT NOT NULL,
+content VARCHAR(255) NOT NULL,
+like_count INT UNSIGNED NOT NULL DEFAULT 0,
+time DATETIME NOT NULL DEFAULT NOW() ON UPDATE NOW(),
+FOREIGN KEY (member_id) REFERENCES member(id)  
+);  
+![Alt text](/17.jpg)
+- 'SELECT  
+m.id,  
+m.member_id,
+m.content,
+m.like_count,
+m.time,
+mb.name AS sender_name
+FROM
+message m 
+JOIN
+member mb  
+ON  
+m.member_id = mb.id;'
+![Alt text](/18.jpg)
+- 'SELECT  
+m.id,  
+m.member_id,
+m.content,
+m.like_count,
+m.time,
+mb.name AS sender_name
+FROM
+message m 
+JOIN
+member mb ON m.member_id = mb.id    
+WHERE    
+mb.username = 'test';'
+![Alt text](/19.jpg)
+- 'SELECT AVG(like_count) AS avg_l_c
+FROM (
+SELECT
+m.member_id,  
+m.like_count,  
+mb.name AS sender_name  
+FROM  
+message m   
+JOIN  
+member mb ON m.member_id = mb.id      
+WHERE      
+mb.username = 'test';'  
+![Alt text](/20.jpg)  
+
+
+
+
+  
             
