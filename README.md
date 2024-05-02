@@ -1,6 +1,6 @@
 # week-5
-Project Description
-在command prompt練習MySQL的各種指令，生成一個database-"website"，這個database底下有2個tables - "member" & "message"。
+## Project Description
+### 在command prompt練習MySQL的各種指令，生成一個database-"website"，這個database底下有2個tables - "member" & "message"。
 
 ## **TASK 2**    
 ### Q1.  
@@ -104,28 +104,28 @@ WHERE username = 'test';
 
 
 ## **TASK 4**
-### Q1  
+### Q1.  
 #### SQL Command
 ```
 SELECT COUNT(*) FROM member;
 ```
 #### Result
 ![Alt text](/13.jpg)
-### Q2  
+### Q2.  
 #### SQL Command
 ```
 SELECT SUM(follower_count) FROM member;
 ```
 #### Result
 ![Alt text](/14.jpg)
-### Q3  
+### Q3.  
 #### SQL Command
 ```
 SELECT AVG(follower_count) FROM member;
 ```
 #### Result
 ![Alt text](/15.jpg)
-### Q4  
+### Q4.  
 #### SQL Command
 ```
 SELECT AVG(follower_count) AS avg_f_c
