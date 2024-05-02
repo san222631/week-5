@@ -17,3 +17,16 @@ time DATETIME NOT NULL DEFAULT NOW() ON UPDATE NOW()
 ![Alt text](/3.jpg)  
 
 #**#TASK 3**  
+- 'INSERT INTO member (name, username, password) VALUES ('test', 'test', 'test');'
+![Alt text](/4.jpg)  
+'INSERT INTO member (name, username, password)  
+VALUES
+('1Ting', 'ting', 'tingting'),  
+('2Pieter', 'pieter', 'pp'),  
+('3Mary', 'mary', 'mm'),  
+('4Bob', 'bob', 'bb');'
+![Alt text](/5.jpg)
+- 'SELECT * FROM member;'
+![Alt text](/6.jpg)
+- 'SELECT * FROM member ORDER BY time DESC;'
+![Alt text](/7.jpg)      
